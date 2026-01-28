@@ -4,11 +4,7 @@ services:
   moltbot:
     image: ghcr.io/moltbot/moltbot:main
     restart: unless-stopped
-    command: >
-      node dist/index.js gateway
-      --bind lan
-      --port 18789
-      --allow-unconfigured
+    command: node dist/index.js gateway --bind lan --port 18789 --allow-unconfigured
     environment:
       CLAWDBOT_GATEWAY_TOKEN: ${CLAWDBOT_GATEWAY_TOKEN}
       NODE_ENV: production
