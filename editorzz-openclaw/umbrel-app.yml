@@ -1,16 +1,16 @@
 manifestVersion: 1
-id: editorzz-moltbot
+id: editorzz-openclaw
 category: developer
-name: Moltbot
+name: OpenClaw
 version: "2026.1.27"
-tagline: Self hosted Moltbot Gateway
+tagline: Self hosted OpenClaw Gateway
 description: >-
-  Moltbot Gateway auf Umbrel. Nach der Installation erreichst du das Dashboard über Umbrel, also im sicheren Kontext über https.
+  OpenClaw Gateway on Umbrel. After installation, you can access the dashboard via Umbrel, i.e., in a secure context via https.
 releaseNotes: ""
 developer: Guido Marsch
-website: https://docs.molt.bot
-repo: https://github.com/moltbot/moltbot
-support: https://github.com/moltbot/moltbot/issues
+website: https://docs.openclaw.ai/start/getting-started
+repo: https://github.com/openclaw/openclaw
+support: https://github.com/openclaw/openclaw/issues
 port: 18789
 gallery: []
 path: ""
