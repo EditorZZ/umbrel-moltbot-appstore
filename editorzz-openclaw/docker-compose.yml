@@ -7,7 +7,7 @@ services:
       APP_PORT: 18789
       PROXY_AUTH_ADD: "false"
 
-  moltbot:
+  openclaw:
     image: ghcr.io/openclaw/openclaw:main
     restart: unless-stopped
     command: >
