@@ -1,0 +1,17 @@
+manifestVersion: 1
+id: editorzz-openclaw
+category: developer
+name: OpenClaw
+version: "2026.1.27"
+tagline: Self hosted OpenClaw Gateway
+description: >-
+  OpenClaw Gateway on Umbrel. After installation, you can access the dashboard via Umbrel, i.e., in a secure context via https.
+releaseNotes: ""
+developer: Guido Marsch
+website: https://docs.openclaw.ai/start/getting-started
+repo: https://github.com/openclaw/openclaw
+support: https://github.com/openclaw/openclaw/issues
+port: 18789
+gallery: []
+path: ""
+dependencies: []

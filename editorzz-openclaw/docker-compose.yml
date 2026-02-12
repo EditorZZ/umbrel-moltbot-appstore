@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: editorzz-moltbot_moltbot_1
+      APP_HOST: editorzz-openclaw_openclaw_1
       APP_PORT: 18789
       PROXY_AUTH_ADD: "false"
 
-  moltbot:
-    image: ghcr.io/moltbot/moltbot:main
+  openclaw:
+    image: ghcr.io/openclaw/openclaw:main
     restart: unless-stopped
     command: >
       node dist/index.js gateway
@@ -20,4 +20,4 @@ services:
       NODE_ENV: production
       CLAWDBOT_GATEWAY_TOKEN: "${APP_SEED}"
     volumes:
-      - ${APP_DATA_DIR}/data:/home/node/clawd
+      - ${APP_DATA_DIR}/data:/home/node
